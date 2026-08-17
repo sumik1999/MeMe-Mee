@@ -1,10 +1,10 @@
-# MemeRasa — Controllable Multilingual Meme Generation
+# MeMe-Mee — Controllable Multilingual Meme Generation
 
 <p align="center">
   <strong>Turn Hindi, Hinglish, and English thoughts into culturally relevant memes with controllable emotion.</strong>
 </p>
 
-MemeRasa is an interactive prototype for affect-controlled meme generation. Users provide a situation or thought, select a language, and tune continuous affect dimensions such as humour, sarcasm, romance, absurdity, and wholesomeness. The application then selects a visual template, produces a matching caption, scores its affect alignment, and renders a downloadable meme.
+MeMe-Mee is an interactive prototype for affect-controlled meme generation. Users provide a situation or thought, select a language, and tune continuous affect dimensions such as humour, sarcasm, romance, absurdity, and wholesomeness. The application then selects a visual template, produces a matching caption, scores its affect alignment, and renders a downloadable meme.
 
 ## Highlights
 
