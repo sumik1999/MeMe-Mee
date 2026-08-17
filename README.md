@@ -6,6 +6,16 @@
 
 MeMe-Mee is an interactive prototype for affect-controlled meme generation. Users provide a situation or thought, select a language, and tune continuous affect dimensions such as humour, sarcasm, romance, absurdity, and wholesomeness. The application then selects a visual template, produces a matching caption, scores its affect alignment, and renders a downloadable meme.
 
+## Product Preview
+
+![MeMe-Mee application dashboard](docs/assets/meme-mee-dashboard.png)
+
+### Controllable Emotion Mixer
+
+Tune continuous affect dimensions to control the tone of every generated caption.
+
+![MeMe-Mee emotion controls for humour, sarcasm, romance, absurdity, and wholesomeness](docs/assets/affect-controls.png)
+
 ## Highlights
 
 - **Multilingual input:** Hindi, Roman Hindi/Hinglish, and English modes
