@@ -67,7 +67,7 @@ function Sidebar({ open, onClose }) {
     {open && <div className="scrim" onClick={onClose} />}
     <aside className={`sidebar ${open ? 'open' : ''}`}>
       <button className="mobile-close" onClick={onClose}><X size={20}/></button>
-      <div className="brand"><div className="brand-mark"><span>र</span></div><div>Meme<span>Rasa</span></div></div>
+      <div className="brand"><div className="brand-mark"><span>म</span></div><div>MeMe<span>-Mee</span></div></div>
       <p className="nav-label">STUDIO</p>
       <nav>{nav.map(([Icon, label, active]) => <button className={active ? 'active' : ''} key={label}><Icon size={18}/><span>{label}</span>{label === 'Explore' && <b>NEW</b>}</button>)}</nav>
       <p className="nav-label second">LEARN</p>
@@ -144,7 +144,7 @@ function Preview({ template, setTemplate, caption, setCaption, match, generating
       const gradient=ctx.createLinearGradient(0,500,0,1080);gradient.addColorStop(0,'transparent');gradient.addColorStop(1,'rgba(0,0,0,.9)');ctx.fillStyle=gradient;ctx.fillRect(0,0,1080,1080);
       ctx.font='900 72px Arial';ctx.textAlign='center';ctx.fillStyle='white';ctx.strokeStyle='black';ctx.lineWidth=10;
       caption.split('\n').forEach((line,i)=>{const y=850+i*88;ctx.strokeText(line,540,y);ctx.fillText(line,540,y)});
-      const a=document.createElement('a');a.download='memerasa.png';a.href=canvas.toDataURL('image/png');a.click(); showToast('Meme downloaded!');
+      const a=document.createElement('a');a.download='meme-mee.png';a.href=canvas.toDataURL('image/png');a.click(); showToast('Meme downloaded!');
     } catch { showToast('Image is ready — use Share to save it'); }
   };
 
